@@ -13,14 +13,14 @@ and the Flutter guide for
 
 这是一个视频预加载的解决方案，提供丰富的接口与您的业务交互。
 
-## Features
+## 录屏
 <video src = "https://github.com/tuhao-world/preload_video/raw/main/51_1710127130.mp4" autoplay="true" width=108 height=192></video>
 
-## Getting started
+## 依赖
 dependencies:
 preload_video: ^0.0.1
 
-## Usage
+## 使用
 to `https://github.com/tuhao-world/preload_video/blob/main/examples.dart` folder.
 
 ```dart
@@ -55,7 +55,7 @@ PreloadVideo<HomeVo, HomeModel>(
 )
 ```
 
-## Additional information
+## 信息
 
 有问题请联系 作者 hshlzlhbhzy@gmial
 或github提issue，更多定制请联系 hshlzlhbhzy@gmial
