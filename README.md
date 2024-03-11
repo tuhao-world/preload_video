@@ -52,4 +52,6 @@ PreloadVideo的可选参数说明，请看源码的注视。
 
 #### 捐助
 若能资助，我将投入更多时间设计更多服务于开发者的插件。非常谢谢！
-![The example app running in Android](https://github.com/tuhao-world/preload_video/blob/main/531710138643_.pic.jpg)
+
+
+![wechat](https://github.com/tuhao-world/preload_video/blob/main/IMG_202403111469_300x300.jpg)
