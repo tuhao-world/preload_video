@@ -3,6 +3,7 @@
 一个最简单的例子：
 
 ![The example app running in Android](https://github.com/tuhao-world/preload_video/blob/main/aaa.gif)
+
 ## 导入依赖
 dependencies: preload_video: ^last_version
 
@@ -48,3 +49,7 @@ PreloadVideo<HomeVo, HomeModel>(
 ```
 
 PreloadVideo的可选参数说明，请看源码的注视。
+
+#### 捐助
+若能资助，我将投入更多时间设计更多服务于开发者的插件。非常谢谢！
+![The example app running in Android](https://github.com/tuhao-world/preload_video/blob/main/531710138643_.pic.jpg)
