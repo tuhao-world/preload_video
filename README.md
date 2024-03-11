@@ -1,30 +1,16 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
-
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages).
-
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages).
--->
-
+## 说明
 这是一个视频预加载的解决方案，提供丰富的接口与您的业务交互。
+一个最简单的例子：
 
-## 录屏
-<video src = "https://github.com/tuhao-world/preload_video/raw/main/51_1710127130.mp4" autoplay="true" width=108 height=192></video>
-
-## 依赖
-dependencies:
-preload_video: ^0.0.1
+![The example app running in Android](http://1.116.200.52:8034/test.gif)
+## 导入依赖
+dependencies: preload_video: ^last_version
 
 ## 使用
-to `https://github.com/tuhao-world/preload_video/blob/main/examples.dart` folder.
-
+#### 前提条件1：
+您需要创建一个视频模型类，该类需继承自VideoVo，且反序列化时，需要赋值
+给VideoVo的所有基础属性。如：
 ```dart
-//模型
 class HomeVo extends VideoVo{
   int? id;
   HomeVo({this.id});
@@ -41,22 +27,24 @@ class HomeVo extends VideoVo{
     return this;
   }
 }
-//model
+```
+
+#### 前提条件2：
+您需要创建一个数据操作的中间件（model），可以是Getx、provider等状态管理的子类，如：
+```dart
 class HomeModel extends VideoModel<HomeVo>{
   @override
   Future<DataLoadState> loadData({bool loadMore = false}) {
     //这里是放你获取视频列表的业务
   }
 }
+```
 
-//组建
+#### 开始使用：
+```dart
 PreloadVideo<HomeVo, HomeModel>(
   model: HomeModel(),
 )
 ```
 
-## 信息
-
-有问题请联系 作者 hshlzlhbhzy@gmial
-或github提issue，更多定制请联系 hshlzlhbhzy@gmial
-谢谢！
+PreloadVideo的可选参数说明，请看源码的注视。
