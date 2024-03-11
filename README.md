@@ -2,7 +2,7 @@
 这是一个视频预加载的解决方案，提供丰富的接口与您的业务交互。
 一个最简单的例子：
 
-![The example app running in Android](http://1.116.200.52:8034/test.gif)
+![The example app running in Android](https://mypublic.yingyintonghua.com/preview-test.gif)
 ## 导入依赖
 dependencies: preload_video: ^last_version
 
