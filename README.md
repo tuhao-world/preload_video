@@ -14,7 +14,7 @@ and the Flutter guide for
 这是一个视频预加载的解决方案，提供丰富的接口与您的业务交互。
 
 ## Features
-<video src = "https://github.com/tuhao-world/preload_video/raw/main/51_1710127130.mp4" autoplay="true" width="108" height="192"></video>
+<video src = "https://github.com/tuhao-world/preload_video/raw/main/51_1710127130.mp4" autoplay="true" width=108 height=192></video>
 
 ## Getting started
 dependencies:
